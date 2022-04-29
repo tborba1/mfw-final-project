@@ -1,28 +1,28 @@
 /*
-font-family: 'ABeeZee', sans-serif; LOGO FONT
-font-family: 'Arimo', sans-serif;
-font-family: 'Economica', sans-serif;
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Mulish', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poppins', sans-serif;
 */
 
-/* 
-color: #457d58; LOGO COLOR NON-TRANSPARENT
-color: #A2BEAC; LOGO COLOR TRANSPARENT
-
-*/
 body {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /*HEADINGS*/
 h1 {
-    text-align: center;
+    font-family: 'Permanent Marker', cursive;
     color: #457d58;
 }
-.col h2 {
-    text-align: center;
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    font-family: 'Permanent Marker', cursive;
 }
 .col h3 {
     color: #457d58;
-    text-align: center;
 }
 .thumbnail h3 {
     color: #457d58;
@@ -30,48 +30,29 @@ h1 {
 .tableh3 {
     color: #457d58;
 }
-h4 {
-    text-align: center;
-    color: grey;
-}
 .jumbotron {
-    text-align: center;
     background-color: #A2BEAC;
 }
-/* .jumbotron h2 {
-    color: white;
-} */
-.btn:hover {
-    background-color: #457d58;
-}
+
+
 .carousel-caption {
-    color: black;
-    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    /* padding: 1em; */
+    /* max-width: 80%; */
+    border-radius: 5px;
 }
 
 /*NAV BAR*/
 .navbar-brand {
     background-color:#457d58;
+    font-family: 'Permanent Marker', cursive;
 } 
 .navbar-brand:hover {
     background-color: #A2BEAC;
 }
-nav {
-    /* background-color: #457d58; */
-    /* border: 2px solid grey;
-    border-radius: 10px;
-    margin-bottom: 10px; */
-    /* padding: 30px; */
-    /* position: sticky; */
-    /* top: 1px; */
-    text-align: center;
-}
-nav li {
-    display: flex;
-    justify-content: center;
-    margin-right: 30px;
-    font-family: 'ABeeZee', sans-serif;
-    color: black;
+.navbar-nav {
+    font-family: 'Permanent Marker', cursive;
 }
 nav li a:hover {
     text-decoration: none;
@@ -97,7 +78,6 @@ form input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-family: 'Economica', sans-serif;
 }
 form input[type=submit] {
     background-color: grey;
@@ -106,7 +86,6 @@ form input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Economica', sans-serif;
     display: block; /*to center the submit button*/
     margin: auto; /*to center the submit button*/
 }
@@ -121,7 +100,6 @@ form input[type=submit]:hover {
     margin-bottom: 10px;
     margin: auto;
     color: white;
-    font-family: 'Economica', sans-serif;
 }
 
 /*FOOTER*/
@@ -130,6 +108,7 @@ footer {
     /* color: #496f51; */
     font-weight: bold;
     background-color: #A2BEAC;
+    font-family: 'Permanent Marker', cursive;
 }
 footer a {
     color: black;
@@ -149,24 +128,6 @@ a:hover {
     text-decoration: none;
     background-color:#A2BEAC;
 }
-/* footer .column {
-    float: left;
-    width: 50%;
-}
-footer .row {
-    clear: both;
-}
-.col-left {
-    text-align: left;
-}
-.col-right {
-    text-align: right;
-} */
-/* footer .col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 footer .brand {
     background-color: #457d58;
 }
