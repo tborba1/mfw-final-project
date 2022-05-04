@@ -79,8 +79,9 @@ form input[type=text], select, textarea {
     resize: vertical;
 }
 form input[type=submit] {
-    background-color: grey;
-    color: white;
+    background-color: #A2BEAC;
+    color: black;
+    font-weight: bold;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -89,7 +90,9 @@ form input[type=submit] {
     margin: auto; /*to center the submit button*/
 }
 form input[type=submit]:hover {
-    background-color: #A2BEAC;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
 .contact {
     border-radius: 10px;
