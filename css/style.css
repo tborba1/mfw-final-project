@@ -68,6 +68,15 @@ nav li a:visited {
 } 
 
 /*CONTACT FORM*/
+.contact {
+    border-radius: 10px;
+    background-color: #496f51;
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 10px;
+    margin: auto;
+    color: white;
+}
 form input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -77,6 +86,15 @@ form input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+}
+form input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
 form input[type=submit] {
     background-color: #A2BEAC;
@@ -94,14 +112,14 @@ form input[type=submit]:hover {
     color: white;
     font-weight: bold;
 }
-.contact {
-    border-radius: 10px;
-    background-color: #496f51;
-    padding: 20px;
-    width: 50%;
-    margin-bottom: 10px;
-    margin: auto;
-    color: white;
+form input[type=checkbox]:checked {
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: none;
+}
+form input[type=checkbox]:focus {
+    border: 1px solid lightgray;
+    box-shadow: none;
 }
 
 /*FOOTER*/
