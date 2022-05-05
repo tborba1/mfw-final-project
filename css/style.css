@@ -21,8 +21,9 @@ h2 {
 
 h3 {
     font-family: 'Permanent Marker', cursive;
+    color: #457d58;
 }
-.col h3 {
+/* .col h3 {
     color: #457d58;
 }
 .thumbnail h3 {
@@ -30,7 +31,7 @@ h3 {
 }
 .tableh3 {
     color: #457d58;
-}
+} */
 .jumbotron {
     background-color: #A2BEAC;
 }
@@ -40,6 +41,9 @@ h3 {
     /* padding: 1em; */
     /* max-width: 80%; */
     border-radius: 5px;
+}
+.container-sm {
+    width: 70%;
 }
 
 /*NAV BAR*/
@@ -164,6 +168,9 @@ a:hover {
         margin: auto;
         color: white;
     }
+    .container-sm {
+        width: 100%;
+    }
 } 
 @media only screen and (min-width: 481px) and (max-width: 768px) { 
     body { 
@@ -177,6 +184,9 @@ a:hover {
         margin-bottom: 10px;
         margin: auto;
         color: white;
+    }
+    .container-sm {
+        width: 100%;
     }
 } 
 @media only screen and (min-width: 769px) { 
