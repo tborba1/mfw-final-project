@@ -1,7 +1,5 @@
+/*FONTS USED*/
 /*
-font-family: 'ABeeZee', sans-serif;
-font-family: 'Architects Daughter', cursive;
-font-family: 'Mulish', sans-serif;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Poppins', sans-serif;
 */
@@ -10,7 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/*HEADINGS*/
+/*HEADINGS, FONTS, COLORS*/
+.jumbotron {
+    background-color: #A2BEAC;
+}
 h1 {
     font-family: 'Permanent Marker', cursive;
     color: #457d58;
@@ -23,27 +24,11 @@ h3 {
     font-family: 'Permanent Marker', cursive;
     color: #457d58;
 }
-/* .col h3 {
+h4 {
     color: #457d58;
 }
-.thumbnail h3 {
-    color: #457d58;
-}
-.tableh3 {
-    color: #457d58;
-} */
-.jumbotron {
-    background-color: #A2BEAC;
-}
-.carousel-caption {
-    color: white;
-    background-color: rgba(0, 0, 0, .3);
-    /* padding: 1em; */
-    /* max-width: 80%; */
-    border-radius: 5px;
-}
-.container-sm {
-    width: 70%;
+.articleSource {
+    font-size: x-small;
 }
 
 /*NAV BAR*/
@@ -168,8 +153,12 @@ a:hover {
         margin: auto;
         color: white;
     }
-    .container-sm {
+    /* .container-sm {
         width: 100%;
+    } */
+    .video {
+        width: 350px;
+        height: 200px;
     }
 } 
 @media only screen and (min-width: 481px) and (max-width: 768px) { 
@@ -185,9 +174,9 @@ a:hover {
         margin: auto;
         color: white;
     }
-    .container-sm {
+    /* .container-sm {
         width: 100%;
-    }
+    } */
 } 
 @media only screen and (min-width: 769px) { 
     body { 
